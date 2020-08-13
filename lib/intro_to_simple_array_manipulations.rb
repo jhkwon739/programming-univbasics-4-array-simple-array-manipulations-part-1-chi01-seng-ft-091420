@@ -10,10 +10,11 @@ def using_pop(array)
   array.pop
 end
 
-def pop_with_args(array, num=2)
-  array.pop(num)
-end
-
-#def pop_with_args(array)
-  array.pop(2)
+#removes any number of items at the end of array, not just two. Takes in two parameters
+#def pop_with_args(array, num=2)
+#  array.pop(num)
 #end
+
+def pop_with_args(array)
+  array.pop(2)
+end
